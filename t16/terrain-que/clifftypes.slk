@@ -171,40 +171,6 @@ P;E等线;M220;SI;L24
 P;E等线;M220;SB;L9
 P;E等线;M220;L10
 P;E等线;M220;L9
-P;E等线 Light;M360;L55
-P;E等线;M300;SB;L55
-P;E等线;M260;SB;L55
-P;E等线;M220;SB;L55
-P;E等线;M220;L18
-P;E等线;M220;L21
-P;E等线;M220;L61
-P;E等线;M220;L63
-P;E等线;M220;SB;L64
-P;E等线;M220;SB;L53
-P;E等线;M220;L53
-P;E等线;M220;SB;L10
-P;E等线;M220;L11
-P;E等线;M220;SI;L24
-P;E等线;M220;SB;L9
-P;E等线;M220;L10
-P;E等线;M220;L9
-P;E等线 Light;M360;L55
-P;E等线;M300;SB;L55
-P;E等线;M260;SB;L55
-P;E等线;M220;SB;L55
-P;E等线;M220;L18
-P;E等线;M220;L21
-P;E等线;M220;L61
-P;E等线;M220;L63
-P;E等线;M220;SB;L64
-P;E等线;M220;SB;L53
-P;E等线;M220;L53
-P;E等线;M220;SB;L10
-P;E等线;M220;L11
-P;E等线;M220;SI;L24
-P;E等线;M220;SB;L9
-P;E等线;M220;L10
-P;E等线;M220;L9
 P;E等线;M180
 P;E等线;M220;L9
 P;E等线;M220;L9
@@ -219,17 +185,11 @@ P;E等线;M220;L9
 P;E等线;M220;L9
 P;E等线;M180
 P;E等线;M220;L9
-P;E等线;M220;L9
-P;E等线;M220;L9
-P;E等线;M220;L9
-P;E等线;M180
-P;E等线;M220;L9
-F;P0;DG0G8;M280
+F;P0;DG0G8;M285
 B;Y37;X12;D0 0 36 11
 O;D;V0;K47;G100 0.001
 F;W4 4 32
 F;W6 6 29
-F;W7 7 15
 C;Y1;X1;K"cliffID"
 C;X2;K"cliffModelDir"
 C;X3;K"rampModelDir"
@@ -245,8 +205,7 @@ C;X12;K"InBeta"
 C;Y2;X1;K"CLdi"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM174;X4
-C;K"ReplaceableTextures\cliff-que\CliffL"
+C;X4;K"ReplaceableTextures\CliffL"
 C;X5;K"Cliff0"
 C;X6;K"WESTRING_CLIFF_CLdi"
 C;X7;K"Ldrt"
@@ -258,8 +217,7 @@ C;X12;K1
 C;Y3;X1;K"CLgr"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM174;X4
-C;K"ReplaceableTextures\cliff-que\CliffL"
+C;X4;K"ReplaceableTextures\CliffL"
 C;X5;K"Cliff1"
 C;X6;K"WESTRING_CLIFF_CLgr"
 C;X7;K"Lgrs"
@@ -271,8 +229,7 @@ C;X12;K1
 C;Y4;X1;K"CFdi"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM177;X4
-C;K"ReplaceableTextures\cliff-que\CliffF"
+C;X4;K"ReplaceableTextures\Cliff"
 C;X5;K"Cliff0"
 C;X6;K"WESTRING_CLIFF_CFdi"
 C;X7;K"Fdrt"
@@ -284,8 +241,7 @@ C;X12;K1
 C;Y5;X1;K"CFgr"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM177;X4
-C;K"ReplaceableTextures\cliff-que\CliffF"
+C;X4;K"ReplaceableTextures\Cliff"
 C;X5;K"Cliff1"
 C;X6;K"WESTRING_CLIFF_CFgr"
 C;X7;K"Fgrs"
@@ -297,7 +253,7 @@ C;X12;K1
 C;Y6;X1;K"CWgr"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM174;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffW"
 C;X5;K"Cliff0"
 C;X6;K"WESTRING_CLIFF_CWgr"
@@ -310,7 +266,7 @@ C;X12;K1
 C;Y7;X1;K"CWsn"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffW"
 C;X5;K"Cliff1"
 C;X6;K"WESTRING_CLIFF_CWsn"
@@ -323,7 +279,7 @@ C;X12;K1
 C;Y8;X1;K"CBde"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffB"
 C;X5;K"Cliff0"
 C;X6;K"WESTRING_CLIFF_CBde"
@@ -336,7 +292,7 @@ C;X12;K1
 C;Y9;X1;K"CBgr"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffB"
 C;X5;K"Cliff1"
 C;X6;K"WESTRING_CLIFF_CBgr"
@@ -349,7 +305,7 @@ C;X12;K1
 C;Y10;X1;K"CNdi"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffN"
 C;X5;K"Cliff0"
 C;X6;K"WESTRING_CLIFF_CNdi"
@@ -362,7 +318,7 @@ C;X12;K1
 C;Y11;X1;K"CNsn"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffN"
 C;X5;K"Cliff1"
 C;X6;K"WESTRING_CLIFF_CNsn"
@@ -399,7 +355,7 @@ C;X12;K1
 C;Y14;X1;K"CCgr"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffC"
 C;X5;K"Cliff1"
 C;X6;K"WESTRING_CLIFF_CCgr"
@@ -412,7 +368,7 @@ C;X12;K1
 C;Y15;X1;K"CCdi"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffC"
 C;X5;K"Cliff0"
 C;X6;K"WESTRING_CLIFF_CCdi"
@@ -425,7 +381,7 @@ C;X12;K1
 C;Y16;X1;K"CYdi"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffY"
 C;X5;K"Cliff0"
 C;X6;K"WESTRING_CLIFF_CYdi"
@@ -438,7 +394,7 @@ C;X12;K1
 C;Y17;X1;K"CYsq"
 C;X2;K"CityCliffs"
 C;X3;K"CityCliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffY"
 C;X5;K"Cliff1"
 C;X6;K"WESTRING_CLIFF_CYsq"
@@ -451,7 +407,7 @@ C;X12;K1
 C;Y18;X1;K"CVdi"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffV"
 C;X5;K"Cliff0"
 C;X6;K"WESTRING_CLIFF_CVdi"
@@ -464,7 +420,7 @@ C;X12;K1
 C;Y19;X1;K"CVgr"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffV"
 C;X5;K"Cliff1"
 C;X6;K"WESTRING_CLIFF_CVgr"
@@ -525,7 +481,7 @@ C;X12;K1
 C;Y24;X1;K"CQdi"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffQ"
 C;X5;K"Cliff0"
 C;X6;K"WESTRING_CLIFF_CVdi"
@@ -538,7 +494,7 @@ C;X12;K1
 C;Y25;X1;K"CQgr"
 C;X2;K"Cliffs"
 C;X3;K"CliffTrans"
-F;SM172;X4
+F;SM138;X4
 C;K"ReplaceableTextures\cliff-que\CliffQ"
 C;X5;K"Cliff1"
 C;X6;K"WESTRING_CLIFF_CVgr"
