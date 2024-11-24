@@ -14,7 +14,7 @@ Frame "SIMPLEFRAME" "CommandBarFrame" {
 	}
 	
 	Frame "SIMPLEBUTTON" "CommandButton_1" INHERITS "CommandButtonTemplate" {
-		SetPoint TOPLEFT, "CommandBarFrame", TOPLEFT, 0.007, -0.039,
+		SetPoint TOPLEFT, "CommandBarFrame", TOPLEFT, 0.005, -0.039,
 	}
 	
 	Frame "SIMPLEBUTTON" "CommandButton_2" INHERITS "CommandButtonTemplate" {
@@ -30,7 +30,7 @@ Frame "SIMPLEFRAME" "CommandBarFrame" {
 	}		
 		
 	Frame "SIMPLEBUTTON" "CommandButton_5" INHERITS "CommandButtonTemplate" {
-		SetPoint TOPLEFT, "CommandBarFrame", TOPLEFT, 0.007, -0.069,
+		SetPoint TOPLEFT, "CommandBarFrame", TOPLEFT, 0.005, -0.069,
 	}
 	
 	Frame "SIMPLEBUTTON" "CommandButton_6" INHERITS "CommandButtonTemplate" {
@@ -46,7 +46,7 @@ Frame "SIMPLEFRAME" "CommandBarFrame" {
 	}
 	
 	Frame "SIMPLEBUTTON" "CommandButton_9" INHERITS "CommandButtonTemplate" {
-		SetPoint TOPLEFT, "CommandBarFrame", TOPLEFT, 0.007, -0.099,
+		SetPoint TOPLEFT, "CommandBarFrame", TOPLEFT, 0.005, -0.099,
 	}
 	
 	Frame "SIMPLEBUTTON" "CommandButton_10" INHERITS "CommandButtonTemplate" {

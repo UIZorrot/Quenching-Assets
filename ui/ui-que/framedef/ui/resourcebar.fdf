@@ -14,7 +14,7 @@ Frame "SIMPLEFRAME" "ResourceBarFrame" {
     DecorateFileNames,
     Width 0.33828125,
     Height 0.0218,
-    
+
     Texture INHERITS "ResourceBarIconTemplate" {
         Anchor TOPLEFT, 0.0000, -0.003125,
         File "GoldIcon",
@@ -42,18 +42,13 @@ Frame "SIMPLEFRAME" "ResourceBarFrame" {
         Width 0.05681875,
     }
 
-    String "NewText" INHERITS "ResourceBarTextTemplate" {
-        Anchor TOPRIGHT, -0.0055, -0.003125,
-        Width 0.05681875,
-        Text "v1.6",
-    }
-
 //    Texture INHERITS "ResourceBarIconTemplate" {
 //        Anchor TOPLEFT, 0.259375, -0.003125,
 //        File "UpkeepIcon",
 //    }
+
     String "ResourceBarUpkeepText" {
-        Anchor TOPRIGHT,  -0.11, -0.4825,
+        Anchor TOPRIGHT, -0.0055, -0.003125,
         FontJustificationH JUSTIFYCENTER,
         Font "MasterFont",0.01,
         Width 0.07,

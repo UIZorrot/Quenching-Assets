@@ -1,8 +1,8 @@
 Frame "FRAME" "MiniMapFrame" {
     Width 0.1355,
     Height 0.1355, 
-	SetPoint BOTTOMLEFT, "ConsoleUI", BOTTOMLEFT, 0.019375, 0.006875,			
-	SetPoint TOPRIGHT, "ConsoleUI", BOTTOMLEFT, 0.1355, 0.1355,
+	SetPoint BOTTOMLEFT, "ConsoleBottomBar", BOTTOMLEFT, 0.019375, 0.006875,			
+	SetPoint TOPRIGHT, "ConsoleBottomBar", BOTTOMLEFT, 0.1355, 0.1355,
 }
 
 Frame "SIMPLEBUTTON" "MinimapButtonTemplate" {
@@ -25,14 +25,15 @@ Texture "MiniMapSignalButtonDisabled" {
 
 Frame "SIMPLEFRAME" "MinimapButtonBar" {
     UseActiveContext,
-    SetAllPoints,
+    SetPoint BOTTOMLEFT, "ConsoleBottomBar", BOTTOMLEFT, 0, 0,
+	  SetPoint TOPRIGHT, "ConsoleBottomBar", BOTTOMLEFT, 0, 0,
 
     Frame "SIMPLEBUTTON" "MinimapSignalButton" INHERITS "MinimapButtonTemplate" {
-		DecorateFileNames,
-		SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.15, 0.1375,
-		NormalTexture "MiniMapSignalButtonEnabled",
-		PushedTexture "MiniMapSignalButtonPushed",
-		DisabledTexture "MiniMapSignalButtonDisabled",		
+      DecorateFileNames,
+      SetPoint TOPLEFT, "MinimapButtonBar", BOTTOMLEFT, 0.15, 0.1375,
+      NormalTexture "MiniMapSignalButtonEnabled",
+      PushedTexture "MiniMapSignalButtonPushed",
+      DisabledTexture "MiniMapSignalButtonDisabled",		
     }
 	
     Frame "SIMPLEBUTTON" "MiniMapTerrainButton" INHERITS "MinimapButtonTemplate" {
