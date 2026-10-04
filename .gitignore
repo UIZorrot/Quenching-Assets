@@ -1,0 +1,10 @@
+# Generated distribution archives and build/upload logs are not resource sources.
+/QMF*.zip
+/*.log
+/release/
+/dist/
+/logs/
+/_irys/
+/.env*
+.DS_Store
+Thumbs.db

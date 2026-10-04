@@ -1,0 +1,21 @@
+# Keep the game resource bytes exactly as supplied, including text resource tables.
+* -text
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+*.dds -diff
+*.tif -diff
+*.mdx -diff
+*.mdx-unvio -diff
+*.bls -diff
+*.webm -diff
+*.flac -diff
+*.png -diff
+*.tga -diff
+*.blp -diff
+*.ttf -diff
+*.pkb -diff
+*.psd -diff
+*.facefx_ingame -diff
+*.gz -diff
